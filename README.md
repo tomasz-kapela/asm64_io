@@ -29,7 +29,7 @@ call print_int     ; wypisze na ekran liczbę 10
 
 ## Stosowanie biblioteki
 
-Zastosowanie biblioteki asm64_io wymaga pobrania jednej wersji poniżej. Z zawartych w niej plików modyfikujemy tylko plik starter.asm.
+ Z zawartych w asm64_io plików modyfikujemy tylko plik starter.asm (lub jego kopię).
 
 starter.asm
 
