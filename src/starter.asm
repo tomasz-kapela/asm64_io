@@ -11,9 +11,9 @@ segment .bss
 ;
 
 segment .text
-global asm_main
-asm_main:
- enter 0,0 
+global MAIN
+MAIN:
+enter 0,0 
 
 ; ----
 ; Właściwy kod wstawiamy tu. 

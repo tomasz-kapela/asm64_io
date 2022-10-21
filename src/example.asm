@@ -6,9 +6,9 @@ wynik   db "Suma = ", 0
 segment .bss
 
 segment .text
-global asm_main
-asm_main:
- enter 0,0 
+global MAIN
+MAIN:
+enter 0,0 
 ; ----
 
 dump_regs 1     ; pierwsze wypisanie zawartości rejestrów

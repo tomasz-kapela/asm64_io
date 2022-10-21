@@ -1,0 +1,4 @@
+/src/*.o
+.idea
+/src/example
+/src/starter
