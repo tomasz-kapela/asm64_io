@@ -119,7 +119,9 @@ ret
 ```
 
 ## Wersje biblioteki
-Najnowszą biblioteką jest [asm64_io_pie](../utils/asm64_io_pie.zip) pozwala ona na tworzenie oprogramowania i w wersji PIE i NO-PIE. Starsza biblioteka ams64_io jest głownie dla starszych wersji Linuxa i nie wspiera ona PIE. Biblioteka asm_io jest dla systemów 32 bitowych.
+Najnowsza wersja biblioteki [asm64_io](asm64_io.zip) pozwala ona na tworzenie oprogramowania i w wersji PIE i NO-PIE. 
+
+Starsza biblioteka asm_io była tworzona dla systemów 32 bitowych.
 
 
 
