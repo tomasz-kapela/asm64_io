@@ -10,9 +10,9 @@ asm64_io (64bit), asm63_io_new (64bit, gcc wersja powyżej 5).
 
 | Funkcja | opis |
 |----     | ---- |
-|`print_int` |	 Drukuje na ekran wartość całkowitą z rejestru EAX |
-|`print_char` |	 Drukuje na ekran znak, którego kod ASCII jest w rejestrze AL|
-|`print_string` |	 Drukuje napis, którego adres znajduje się w EAX. Napis musi się kończyć zerem (typ C).|
+|`print_int` |	 Wypisuje na ekran wartość całkowitą z rejestru EAX |
+|`print_char` |	 Wypisuje na ekran znak, którego kod ASCII jest w rejestrze AL|
+|`print_string` |	 Wypisuje napis, którego adres znajduje się w EAX. Napis musi się kończyć zerem (typ C).|
  |`print_nl` |	 Nowa linia|
  |`read_int` |	 Czyta z klawiatury liczbę całkowitą i wrzuca do rejestru EAX|
  |`read_char` |	 Czyta znak z klawiatury i wrzuca jego kod ASCII do EAX |         
@@ -29,7 +29,7 @@ call print_int     ; wypisze na ekran liczbę 10
 
 ## Stosowanie biblioteki
 
-Zastosowanie biblioteki asm64_io wymaga pobrania jednej wersji poniżej. Z zawartych w niej plików modyfikujemy tylko plik starter.asm.
+ Z zawartych w asm64_io plików modyfikujemy tylko plik starter.asm (lub jego kopię).
 
 starter.asm
 
