@@ -1,8 +1,9 @@
 # Biblioteka asm64_io
 
-Wejście i wyjście z programu asemblerowego są, łagodnie rzecz ujmując, uciążliwe.
+Wejście i wyjście z programu asemblerowego bywa uciążliwe.
 Aby uprościć obsługę operacji wejścia/wyjścia, w programach asemblerowych można wywoływać funkcje C.
-Asemblerowy interfejs do funkcji printf i scanf został zaimplementowany w bibliotece **asm64_io**.
+Uproszczony asemblerowy interfejs do funkcji printf i scanf został 
+zaimplementowany w bibliotece **asm64_io**. Parametry i wyniki przekazywane są do funcji przez rejestr `RAX` a wywołania nie modyfikują żadnych innych rejestrów. 
 
 ## Pobierz
 
