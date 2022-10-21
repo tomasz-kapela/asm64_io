@@ -13,6 +13,10 @@ zaimplementowany w bibliotece **asm64_io**. Parametry i wyniki przekazywane są 
 
 ## Funkcje biblioteki asm64_io
 
+*  Parametry przekazywane są do funkcji przez rejestr `RAX`. 
+*  Wyniki zwracane są także przez 'RAX'.
+*  Wywołania nie modyfikują żadnych innych rejestrów.
+
 | Funkcja | opis |
 |----     | ---- |
 |`print_int` |	 Drukuje na ekran wartość całkowitą z rejestru EAX |
@@ -24,13 +28,15 @@ zaimplementowany w bibliotece **asm64_io**. Parametry i wyniki przekazywane są 
 |`println_int` <br/> `println_char` <br/>`println_string` |	 (tylko asm64_io) drukuje na ekran dodatkowo przechodząc do nowej linii. |
 |`dump_regs X` |	 Wypisanie zawartości rejestrów i flag. Liczba całkowita X jest etykietą.   |
 
-Tabela 2. Funkcje biblioteki asm64_io
+Tabela. Funkcje biblioteki asm64_io
 
-Po załadowaniu do rejestrów odpowiednich danych, procedury z Tabeli 2 woła się instrukcją call np.:
-````asm
+Po załadowaniu do rejestru `RAX` odpowiednich danych, 
+funkcje wykonuję się instrukcją call np.:
+
+```nasm
 mov rax, 10
 call print_int     ; wypisze na ekran liczbę 10
-````
+```
 
 ## Stosowanie biblioteki
 
