@@ -6,9 +6,9 @@ Asemblerowy interfejs do funkcji printf i scanf został zaimplementowany w bibli
 
 ## Pobierz
 
-[asm64_io.zip](asm64_io.zip) (64bit, gcc wersja powyżej 5).
+[Pobierz bibliotekę asm64_io.zip](asm64_io.zip) (64bit, gcc wersja powyżej 5).
 
-[Strona projektu](http://github.com/tomasz-kapela/asm64_io)
+[Repozytorium projektu na GitHubie](http://github.com/tomasz-kapela/asm64_io)
 
 ## Funkcje biblioteki asm64_io
 
